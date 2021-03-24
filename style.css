@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    text-align: center;
+}
+
+ul{
+    margin: auto;
+}
+
+
+li{
+    width: 300px;
+    height:100px;
+    padding:30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    list-style: none;
+    background-color: rgb(25, 133, 187);
+    color: brown;
+    border: 2px solid blue;border-radius: 10px;
+}
+

@@ -20,6 +20,17 @@ surnameList.push(surnameUser);
 
 console.log(surnameList);
 
+var print = '';
+
+for ( var i = 0; i < surnameList.length ; i++ ){
+
+    print += '<li>' + surnameList[i] + '</i>';
+}
+
+console.log(print);
+
+document.getElementById('lista').innerHTML = print;
+
 // ORDINO L'ARRAY IN ORDINE ALFABETICO
 
 surnameList.sort();
@@ -32,3 +43,23 @@ console.log(numberList);
 numberList ++;
 
 console.log('Il cognome ' + surnameUser + ' è posizionato al numero ' + numberList);
+
+// STAMPO ARRAY
+
+var orderedPrint = '';
+
+for ( var i = 0; i < surnameList.length ; i++ ){
+
+    orderedPrint += '<li>' + surnameList[i] + '</i>';
+}
+
+console.log(orderedPrint);
+
+document.getElementById('listaOrdinata').innerHTML = orderedPrint;
+
+
+document.getElementById('surname').innerHTML = surnameUser;
+
+
+document.getElementById('position').innerHTML = numberList;
+
